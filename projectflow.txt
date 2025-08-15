@@ -16,14 +16,14 @@
 9. Go back to project >> "Get Connection String" >> "Drivers" >> {Driver:Python, Version:3.6 or later} 
    >> copy and save the connection string with you(replace password). >> [Done].
 10. Create folder "notebook" >> do step 11 >>  create file "mongoDB_demo.ipynb" >> select kernal>python kernal>vehicle>>
-11. Dataset added to notebook folder
-12. Push your data to mongoDB database from your python notebook.
-13. Go to mongoDB Atlas >> Database >> browse collection >> see your data in key value format
+11. Dataset added to notebook folder [Done]
+12. Push your data to mongoDB database from your python notebook. [Done]
+13. Go to mongoDB Atlas >> Database >> browse collection >> see your data in key value format [Done]
 
 -------------------------------------- logging, exception and notebooks --------------------------------------
-14. Write the logger file and test it on demo.py
-15. Write the exception file and test it on demo.py
-16. EDA and Feature Engg notebook added.
+14. Write the logger file and test it on demo.py  [Done]
+15. Write the exception file and test it on demo.py [Done]
+16. EDA and Feature Engg notebook added. [Done]
 
 ----------------------------------------------- Data Ingestion -----------------------------------------------
 17. Before we work on "Data Ingestion" component >> Declare variables within constants.__init__.py file >> 
@@ -55,7 +55,7 @@
 
 23. Before moving to next component of Model Evaluation, some AWS services setup is needed:
       * Login to AWS console.
-      * Keep region set as - us-east-1
+      * Keep region set as - us-east-1c
       * Go to IAM >> Create new user (name: firstproj)
       * Attach policy >> select AdministratorAccess >> next >> create user
       * Go to the user >> Security Credentials >> Access Keys >> Create access key

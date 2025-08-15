@@ -2,7 +2,7 @@
 __pycache__/
 *.py[codz]
 *$py.class
-
+rf_model.pkl
 # C extensions
 *.so
 
