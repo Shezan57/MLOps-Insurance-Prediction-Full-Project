@@ -5,7 +5,7 @@ __pycache__/
 rf_model.pkl
 # C extensions
 *.so
-
+artifact/
 # Distribution / packaging
 .Python
 build/
