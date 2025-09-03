@@ -54,12 +54,12 @@
 22. Now work on the "Model Trainer" component the way we did in above step. (add class to estimator.py in entity folder) [Done]
 
 23. Before moving to next component of Model Evaluation, some AWS services setup is needed:
-      * Login to AWS console.
-      * Keep region set as - us-east-1c
-      * Go to IAM >> Create new user (name: firstproj)
-      * Attach policy >> select AdministratorAccess >> next >> create user
-      * Go to the user >> Security Credentials >> Access Keys >> Create access key
-      * Select CLI >> agree to condition >> next >> Create Access Key >> download csv file
+      * Login to AWS console. [Done]
+      * Keep region set as - us-east-1c [Done]
+      * Go to IAM >> Create new user (name: project-1) [Done]
+      * Attach policy >> select AdministratorAccess >> next >> create user [Done]
+      * Go to the user >> Security Credentials >> Access Keys >> Create access key [Done]
+      * Select CLI >> agree to condition >> next >> Create Access Key >> download csv file [Done]
       * Set env variables with above csv values using below method:
       ====================================================================================
          >> Set env var from bash terminal: <<
@@ -74,7 +74,7 @@
          $env:AWS_SECRET_ACCESS_KEY="AWS_SECRET_ACCESS_KEY"
          >> Check env var from powershell terminal: <<
          echo $env:AWS_ACCESS_KEY_ID
-         echo $env:AWS_SECRET_ACCESS_KEY
+         echo $env:AWS_SECRET_ACCESS_KEY [Done]
       ====================================================================================
       * Now add the access key, secret key, region name to constants.__init__.py
       * Add code to src.configuration.aws_connection.py file (To work with AWS S3 service)
@@ -84,13 +84,13 @@
             MODEL_PUSHER_S3_KEY = "model-registry"
       * Go to S3 service >> Create bucket >> Region: us-east-1 >> General purpose >>
         Bucket Name: "my-model-mlopsproj" >> uncheck: "Block all public access" and acknowledge >>
-        Hit Create Bucket
+        Hit Create Bucket [Done]
       * Now inside "src.aws_storage" code needs to be added for the configurations needed to pull 
-        and push model from AWS S3 bucket. 
+        and push model from AWS S3 bucket.  [Done]
       * Inside "entity" dir we will have an "s3_estimator.py" file containing all the func to pull/push
-        data from s3 bucket.
+        data from s3 bucket. [Done]
 
-24. Now we will start our work on "Model Evaluation" and "Model Pusher" component.
+24. Now we will start our work on "Model Evaluation" and "Model Pusher" component. [Done]
 
 25. Create the code structure of "Prediction Pipeline" and setup your app.py
 26. Add "static" and "template" dir to the project.
