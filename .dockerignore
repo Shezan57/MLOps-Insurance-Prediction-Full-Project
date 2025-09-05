@@ -1,0 +1,12 @@
+artifacts
+.git
+.gitignore
+.insu_venv
+logs
+template.py
+demo.py
+__pycache__
+README.md
+LICENSE
+src.egg.-info
+notebook
